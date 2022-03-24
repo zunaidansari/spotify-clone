@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Spotify</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/png" href="spotify-logo.png">
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li class="brand"><img src="spotify.png" alt="Spotify">Spotify</li>
+      <li>Home</li>
+      <li>About</li>
+
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="songList">
+      <h1>Best of Punjabi Songs (Songs Used For Project Purpose Only)</h1>
+      <div class="songItemContainer">
+        <div class="songItem">
+          <img src="covers/1.jpg" alt="1">
+          <span class="songName">Patola</span>
+          <span class"songlistplay"><span class="timeStamp">03:28 <i id="0"class="far songItemPlay fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">
+          <img src="covers/2.jpg" alt="2">
+          <span class="songName">Backbone</span>
+          <span class"songlistplay"><span class="timeStamp">02:55 <i id="1"class="far songItemPlay fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">
+          <img src="covers/3.jpg" alt="3">
+          <span class="songName">High Rated</span>
+          <span class"songlistplay"><span class="timeStamp">03:34 <i id="2"class="far songItemPlay fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">
+          <img src="covers/4.jpg" alt="4">
+          <span class="songName">Hornn Blow</span>
+          <span class"songlistplay"><span class="timeStamp">02:26 <i id="3"class="far songItemPlay fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">
+          <img src="covers/5.jpg" alt="5">
+          <span class="songName">Kya Baat Ay</span>
+          <span class"songlistplay"><span class="timeStamp">02:59 <i id="4"class="far songItemPlay fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">
+          <img src="covers/6.jpg" alt="6">
+          <span class="songName">Lahore</span>
+          <span class"songlistplay"><span class="timeStamp">03:17 <i id="5"class="far songItemPlay fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">
+          <img src="covers/7.jpg" alt="7">
+          <span class="songName">Made In India</span>
+          <span class"songlistplay"><span class="timeStamp">03:22 <i id="6"class="far songItemPlay fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">
+          <img src="covers/8.jpg" alt="8">
+          <span class="songName">Naah</span>
+          <span class"songlistplay"><span class="timeStamp">03:10 <i id="7"class="far songItemPlay fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">
+          <img src="covers/9.jpg" alt="9">
+          <span class="songName">Sakhiyaan</span>
+          <span class"songlistplay"><span class="timeStamp">02:59 <i id="8"class="far songItemPlay fa-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">
+          <img src="covers/10.jpg" alt="9">
+          <span class="songName">Excuses</span>
+          <span class"songlistplay"><span class="timeStamp">02:56 <i id="9"class="far songItemPlay fa-play-circle"></i></span></span>
+        </div>
+      </div>
+    </div>
+    <div class="songBanner"></div>
+  </div>
+
+  <div class="bottom">
+    <input type="range" name="range" id="progressBar" min="0" val="0" max="100">
+    <div class="icons">
+        <!--fontawesome icons -->
+        <i class="fas fa-3x fa-step-backward" id="previous"></i>
+        <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+        <i class="fas fa-3x fa-step-forward" id="next"></i>
+    </div>
+    <div class="songInfo">
+      <img src="music.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Patola - Bohemia, Guru Randhawa</span>
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/7d9c6e8f17.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
