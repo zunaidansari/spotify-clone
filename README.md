@@ -1,4 +1,4 @@
-This is a spotify clone website.
+This is a music player website(spotify clone) project.
 It has functionalities :
                         1.Play.
                         2.Pause.
